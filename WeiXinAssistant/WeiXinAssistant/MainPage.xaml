@@ -1,0 +1,39 @@
+﻿<Page
+    x:Class="WeiXinAssistant.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:WeiXinAssistant"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid  Background="#FF00E035">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid x:Name="Input" Height="240" Grid.Row="1" Grid.Column="0" VerticalAlignment="Top">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="140"/>
+                <RowDefinition Height="100"/>
+            </Grid.RowDefinitions>
+
+            <!--<StackPanel Height="140" VerticalAlignment="Center"  Grid.Row="0" Grid.Column="0">-->
+            <TextBox x:Name="Account" HorizontalAlignment="Center" Grid.Row="0" Grid.Column="0"  Height="40" Margin="0" VerticalAlignment="Top" Width="220" PlaceholderText="请输入帐号" Padding="2,2,0,0" FontWeight="Bold" Loaded="Account_Loaded"/>
+            <PasswordBox x:Name="Password" HorizontalAlignment="Center" Grid.Row="0" Grid.Column="0" Height="40" Margin="0,50,0,0" VerticalAlignment="Top" Width="220" PlaceholderText="请输入密码" Padding="2,2,0,0" FontWeight="Bold" Password="{Binding Pwd}" Tapped="Password_Tapped" GotFocus="Password_GotFocus" Loaded="Password_Loaded"/>
+            <TextBox x:Name="VeriCode" HorizontalAlignment="Center" Grid.Row="0" Grid.Column="0" Height="40" Margin="0,100,0,0" VerticalAlignment="Top" Width="220" PlaceholderText="请输入验证码" Padding="2,2,0,0" FontWeight="Bold" Visibility="Collapsed" Loaded="VeriCode_Loaded"/>
+            <!--</StackPanel>-->
+            <!--<StackPanel Height="100" Grid.Row="1" Grid.Column="0">-->
+            <Button x:Name="LoginButton" Grid.Row="1" Grid.Column="0" Width="220" Height="40" VerticalAlignment="Top" HorizontalAlignment="Center" Foreground="White" Background="#FFA2E618" BorderThickness="0" Content="登录" FontSize="23.3" Padding="0" Click="Button_Click" Margin="0" Loaded="LoginButton_Loaded"/>
+            <Image x:Name="VeriCodeImage" Grid.Row="1" Grid.Column="0"  Width="220" Height="40" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,5" NineGrid="0" Tapped="VeriCodeImage_Tapped" />
+            <!--</StackPanel>-->
+        </Grid>
+        <Image Source="Design/MainPaige/LoginHead.png" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,20,0,0" Grid.Row="0" Grid.Column="0" />
+        <ProgressBar x:Name="LoginProgress" HorizontalAlignment="Left" Height="10" Margin="10,0,0,0" VerticalAlignment="Top" Width="390" IsTabStop="False" IsIndeterminate="True" VerticalContentAlignment="Top" Visibility="Collapsed"/>
+        <TextBlock x:Name="LoginState" HorizontalAlignment="Left" Height="21" Margin="10,15,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="380" FontSize="16"/>
+        <HyperlinkButton Content="反馈" HorizontalAlignment="Center" Height="38" Margin="0" Grid.Row="1" VerticalAlignment="Bottom" Width="64" RenderTransformOrigin="0.884,0.602" FontSize="20" Click="HyperlinkButton_Click" Padding="0"/>
+        <HyperlinkButton Content="wp8稳定版" HorizontalAlignment="Center" Height="38" Margin="0,0,0,43" Grid.Row="1" VerticalAlignment="Bottom" Width="103" RenderTransformOrigin="0.884,0.602" FontSize="20" Click="HyperlinkButton1_Click" Padding="0"/>
+    </Grid>
+</Page>

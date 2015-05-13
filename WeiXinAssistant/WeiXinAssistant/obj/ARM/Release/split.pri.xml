@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="106264FF770CB.296835DC44179" version="1.0" primary="true">
+		<Qualifiers>
+			<Scale>240</Scale>
+		</Qualifiers>
+		<ResourceMapSubtree name="Files">
+			<NamedResource name="App.xbf" uri="ms-resource://106264FF770CB.296835DC44179/Files/App.xbf">
+				<Candidate type="Path">
+					<Value>App.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DownloadInfo.xbf" uri="ms-resource://106264FF770CB.296835DC44179/Files/DownloadInfo.xbf">
+				<Candidate type="Path">
+					<Value>DownloadInfo.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Home.xbf" uri="ms-resource://106264FF770CB.296835DC44179/Files/Home.xbf">
+				<Candidate type="Path">
+					<Value>Home.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MainPage.xbf" uri="ms-resource://106264FF770CB.296835DC44179/Files/MainPage.xbf">
+				<Candidate type="Path">
+					<Value>MainPage.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="NewMessages.xbf" uri="ms-resource://106264FF770CB.296835DC44179/Files/NewMessages.xbf">
+				<Candidate type="Path">
+					<Value>NewMessages.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="OrignLogin.xbf" uri="ms-resource://106264FF770CB.296835DC44179/Files/OrignLogin.xbf">
+				<Candidate type="Path">
+					<Value>OrignLogin.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="SendGroup.xbf" uri="ms-resource://106264FF770CB.296835DC44179/Files/SendGroup.xbf">
+				<Candidate type="Path">
+					<Value>SendGroup.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ShowAllPeople.xbf" uri="ms-resource://106264FF770CB.296835DC44179/Files/ShowAllPeople.xbf">
+				<Candidate type="Path">
+					<Value>ShowAllPeople.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TalkPage.xbf" uri="ms-resource://106264FF770CB.296835DC44179/Files/TalkPage.xbf">
+				<Candidate type="Path">
+					<Value>TalkPage.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="WeiXinAssistant.xr.xml" uri="ms-resource://106264FF770CB.296835DC44179/Files/WeiXinAssistant.xr.xml">
+				<Candidate type="Path">
+					<Value>WeiXinAssistant.xr.xml</Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="Assets">
+				<NamedResource name="BadgeLogo.png" uri="ms-resource://106264FF770CB.296835DC44179/Files/Assets/BadgeLogo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\BadgeLogo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Logo.png" uri="ms-resource://106264FF770CB.296835DC44179/Files/Assets/Logo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\Logo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SmallLogo.png" uri="ms-resource://106264FF770CB.296835DC44179/Files/Assets/SmallLogo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\SmallLogo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SplashScreen.png" uri="ms-resource://106264FF770CB.296835DC44179/Files/Assets/SplashScreen.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\SplashScreen.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square71x71Logo.png" uri="ms-resource://106264FF770CB.296835DC44179/Files/Assets/Square71x71Logo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\Square71x71Logo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="StoreLogo.png" uri="ms-resource://106264FF770CB.296835DC44179/Files/Assets/StoreLogo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\StoreLogo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Wide310x150Logo.png" uri="ms-resource://106264FF770CB.296835DC44179/Files/Assets/Wide310x150Logo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\Wide310x150Logo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="WideLogo.png" uri="ms-resource://106264FF770CB.296835DC44179/Files/Assets/WideLogo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\WideLogo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Design">
+				<NamedResource name="getheadimg.png" uri="ms-resource://106264FF770CB.296835DC44179/Files/Design/getheadimg.png">
+					<Candidate type="Path">
+						<Value>Design\getheadimg.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="head.png" uri="ms-resource://106264FF770CB.296835DC44179/Files/Design/head.png">
+					<Candidate type="Path">
+						<Value>Design\head.png</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="Home">
+					<NamedResource name="allpeople.png" uri="ms-resource://106264FF770CB.296835DC44179/Files/Design/Home/allpeople.png">
+						<Candidate type="Path">
+							<Value>Design\Home\allpeople.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="bac.png" uri="ms-resource://106264FF770CB.296835DC44179/Files/Design/Home/bac.png">
+						<Candidate type="Path">
+							<Value>Design\Home\bac.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="blue_above.png" uri="ms-resource://106264FF770CB.296835DC44179/Files/Design/Home/blue_above.png">
+						<Candidate type="Path">
+							<Value>Design\Home\blue_above.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="blue_low.png" uri="ms-resource://106264FF770CB.296835DC44179/Files/Design/Home/blue_low.png">
+						<Candidate type="Path">
+							<Value>Design\Home\blue_low.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="DefaultIcon.png" uri="ms-resource://106264FF770CB.296835DC44179/Files/Design/Home/DefaultIcon.png">
+						<Candidate type="Path">
+							<Value>Design\Home\DefaultIcon.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="green.png" uri="ms-resource://106264FF770CB.296835DC44179/Files/Design/Home/green.png">
+						<Candidate type="Path">
+							<Value>Design\Home\green.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="head.png" uri="ms-resource://106264FF770CB.296835DC44179/Files/Design/Home/head.png">
+						<Candidate type="Path">
+							<Value>Design\Home\head.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="logo.png" uri="ms-resource://106264FF770CB.296835DC44179/Files/Design/Home/logo.png">
+						<Candidate type="Path">
+							<Value>Design\Home\logo.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="newpeople.png" uri="ms-resource://106264FF770CB.296835DC44179/Files/Design/Home/newpeople.png">
+						<Candidate type="Path">
+							<Value>Design\Home\newpeople.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="talk.png" uri="ms-resource://106264FF770CB.296835DC44179/Files/Design/Home/talk.png">
+						<Candidate type="Path">
+							<Value>Design\Home\talk.png</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="MainPaige">
+					<NamedResource name="LoginHead.png" uri="ms-resource://106264FF770CB.296835DC44179/Files/Design/MainPaige/LoginHead.png">
+						<Candidate type="Path">
+							<Value>Design\MainPaige\LoginHead.png</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="NewMessage">
+					<NamedResource name="head.png" uri="ms-resource://106264FF770CB.296835DC44179/Files/Design/NewMessage/head.png">
+						<Candidate type="Path">
+							<Value>Design\NewMessage\head.png</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

@@ -1,0 +1,27 @@
+﻿<Page
+    x:Class="WeiXinAssistant.DownloadInfo"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:WeiXinAssistant"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="#FF00E035">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <ProgressBar x:Name="DownloadProgress" Grid.Row="0" Grid.Column="0"   HorizontalAlignment="Center" Height="4" Margin="0" VerticalAlignment="Bottom" Width="324">
+            <ProgressBar.Background>
+                <SolidColorBrush Color="#FFA2F061" Opacity="1"/>
+            </ProgressBar.Background>
+        </ProgressBar>
+
+        <Button x:Name="Begin" Grid.Row="1" Grid.Column="0" Width="170"  VerticalAlignment="Top" HorizontalAlignment="Center" Foreground="White" Background="#FFA2E618" BorderThickness="0" Content="开始" FontSize="17" Padding="0" Margin="0" Height="10" Click="Button_Click"/>
+        <TextBlock x:Name="state" Grid.Row="0" Text="点击开始下载订阅者个人资料！"  Grid.Column="0" HorizontalAlignment="Center" Height="18" Margin="0,0,0,10" TextWrapping="Wrap" VerticalAlignment="Bottom" Width="324" FontSize="15"/>
+
+    </Grid>
+</Page>

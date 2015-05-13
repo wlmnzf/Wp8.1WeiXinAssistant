@@ -1,0 +1,4 @@
+MainPackage=D:\个人资料\William\工程\WeiXinAssistant\WeiXinAssistant\bin\ARM\Release\WeiXinAssistant_1.4.0.0_Bundle\WeiXinAssistant_1.4.0.0_ARM.appx
+SymbolPackage=D:\个人资料\William\工程\WeiXinAssistant\WeiXinAssistant\AppPackages\WeiXinAssistant_1.4.0.0_Test\WeiXinAssistant_1.4.0.0_ARM.appxsym
+ResourcePack=D:\个人资料\William\工程\WeiXinAssistant\WeiXinAssistant\bin\ARM\Release\WeiXinAssistant_1.4.0.0_Bundle\WeiXinAssistant_1.4.0.0_scale-100.appx
+ResourcePack=D:\个人资料\William\工程\WeiXinAssistant\WeiXinAssistant\bin\ARM\Release\WeiXinAssistant_1.4.0.0_Bundle\WeiXinAssistant_1.4.0.0_scale-140.appx

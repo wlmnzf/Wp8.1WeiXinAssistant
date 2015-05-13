@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>WILLIAM-PC</Machine>
+    <WindowsUser>立敏</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>75af32c6-f650-417e-97b6-c7d194c701ca</PackageIdentityName>
+    <IntermediateOutputPath>D:\个人资料\William\工程\WeiXinAssistant\WeiXinAssistant\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\个人资料\William\工程\WeiXinAssistant\WeiXinAssistant\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\个人资料\William\工程\WeiXinAssistant\WeiXinAssistant\bin\Debug\WeiXinAssistant.exe">
+      <PackagePath>WeiXinAssistant.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\个人资料\William\工程\WeiXinAssistant\WeiXinAssistant\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\个人资料\William\工程\WeiXinAssistant\WeiXinAssistant\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\个人资料\William\工程\WeiXinAssistant\WeiXinAssistant\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\个人资料\William\工程\WeiXinAssistant\WeiXinAssistant\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\个人资料\William\工程\WeiXinAssistant\WeiXinAssistant\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\个人资料\William\工程\WeiXinAssistant\WeiXinAssistant\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\个人资料\William\工程\WeiXinAssistant\WeiXinAssistant\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\个人资料\William\工程\WeiXinAssistant\WeiXinAssistant\Design\Home\allpeople.png">
+      <PackagePath>Design\Home\allpeople.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\个人资料\William\工程\WeiXinAssistant\WeiXinAssistant\Design\Home\bac.png">
+      <PackagePath>Design\Home\bac.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\个人资料\William\工程\WeiXinAssistant\WeiXinAssistant\Design\Home\blue_above.png">
+      <PackagePath>Design\Home\blue_above.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\个人资料\William\工程\WeiXinAssistant\WeiXinAssistant\Design\Home\blue_low.png">
+      <PackagePath>Design\Home\blue_low.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\个人资料\William\工程\WeiXinAssistant\WeiXinAssistant\Design\Home\DefaultIcon.png">
+      <PackagePath>Design\Home\DefaultIcon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\个人资料\William\工程\WeiXinAssistant\WeiXinAssistant\Design\head.png">
+      <PackagePath>Design\head.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\个人资料\William\工程\WeiXinAssistant\WeiXinAssistant\Design\Home\green.png">
+      <PackagePath>Design\Home\green.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\个人资料\William\工程\WeiXinAssistant\WeiXinAssistant\Design\Home\head.png">
+      <PackagePath>Design\Home\head.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\个人资料\William\工程\WeiXinAssistant\WeiXinAssistant\Design\Home\logo.png">
+      <PackagePath>Design\Home\logo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\个人资料\William\工程\WeiXinAssistant\WeiXinAssistant\Design\Home\newpeople.png">
+      <PackagePath>Design\Home\newpeople.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\个人资料\William\工程\WeiXinAssistant\WeiXinAssistant\Design\Home\talk.png">
+      <PackagePath>Design\Home\talk.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\个人资料\William\工程\WeiXinAssistant\WeiXinAssistant\Design\MainPaige\LoginHead.png">
+      <PackagePath>Design\MainPaige\LoginHead.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\个人资料\William\工程\WeiXinAssistant\WeiXinAssistant\Design\NewMessage\head.png">
+      <PackagePath>Design\NewMessage\head.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\个人资料\William\工程\WeiXinAssistant\WeiXinAssistant\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\个人资料\William\工程\WeiXinAssistant\WeiXinAssistant\bin\Debug\Home.xbf">
+      <PackagePath>Home.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\个人资料\William\工程\WeiXinAssistant\WeiXinAssistant\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\个人资料\William\工程\WeiXinAssistant\WeiXinAssistant\bin\Debug\NewMessages.xbf">
+      <PackagePath>NewMessages.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\个人资料\William\工程\WeiXinAssistant\WeiXinAssistant\bin\Debug\WeiXinAssistant.xr.xml">
+      <PackagePath>WeiXinAssistant.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\个人资料\William\工程\WeiXinAssistant\WeiXinAssistant\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
